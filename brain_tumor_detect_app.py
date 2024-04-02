@@ -1,10 +1,12 @@
 import streamlit as st
 import cv2
 import numpy as np
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+import os
 
-# Load the trained model
-model = load_model("effnet.h5")
+# Load the pre-trained model
+model_path = os.path.abspath('effnet.h5')
+model = tf.keras.models.load_model(model_path)
 
 # Define the labels for tumor types
 labels = ['Glioma Tumor', 'No Tumor', 'Meningioma Tumor', 'Pituitary Tumor']

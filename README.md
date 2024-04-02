@@ -18,4 +18,5 @@ address this issue through an automated cloud-based system.
 Development of a Convolutional Neural Network (CNN) for MRI image classification on the
 AWS cloud platform.
 
-## 5. Cloud Services Utilized: The project leverages Stremlit for user interfaces.
+## 5. Cloud Services Utilized: 
+The project leverages Stremlit for user interfaces.
